@@ -11,7 +11,24 @@
   --logo-color: #000000;
   --bacground-futter-hero: #2f303a;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 .link {
+  text-decoration: none;
+}
+.projects-links {
   text-decoration: none;
 }
 .list {
@@ -46,7 +63,7 @@ body {
   color: var(--accent-color);
 }
 .logo-header {
-  font-family: --secondary-font;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -122,12 +139,11 @@ body {
   text-transform: uppercase;
 }
 .description-benefits-items {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color-theme-light);
 }
-.directions {
+.title-directions {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -153,7 +169,6 @@ body {
   /* text-align: center; */
 }
 .employees-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   /* identical to box height */
@@ -161,7 +176,7 @@ body {
   color: var(--secondary-text-color-theme-light);
 }
 .logo-footer {
-  font-family: --secondary-font;
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -180,7 +195,6 @@ body {
 }
 .contact-list-link-address {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color-theme-dark);
@@ -191,7 +205,6 @@ body {
 }
 .contact-list-link-address-footer {
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color-theme-dark);
@@ -200,7 +213,6 @@ body {
 .contact-list-link-footer {
   font-style: normal;
   font-family: var(--primary-font);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color-theme-dark);
@@ -229,7 +241,6 @@ body {
   color: var(--primary-text-color-theme-light);
 }
 .projects-type {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
 
